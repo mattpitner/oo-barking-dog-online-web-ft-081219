@@ -4,7 +4,7 @@ class Dog
     Dog.name = ""
   end 
   
-  def .name
+  def name
     p "#{Dog.name}"
     
     def bark
