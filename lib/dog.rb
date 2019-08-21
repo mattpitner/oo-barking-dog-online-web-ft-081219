@@ -6,6 +6,7 @@ class Dog
   
   def name
     p "#{Dog.name}"
+  end 
     
     def bark
       puts "Woof!"
