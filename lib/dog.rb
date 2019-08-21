@@ -5,8 +5,9 @@ def name=(dog_name)
   end
   
   def name
-    p "#{Dog.name}"
-  end 
+    this_dogs_name
+  end
+end
     
     def bark
       puts "woof!"
