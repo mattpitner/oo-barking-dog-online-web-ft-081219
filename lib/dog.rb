@@ -1,7 +1,10 @@
 class Dog 
 
-  def name
-    
+  def .name=
+    Dog.name = ""
   end 
+  
+  def .name
+    p "#{Dog.name}"
 end 
 
